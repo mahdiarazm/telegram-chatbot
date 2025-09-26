@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
 
 # توکن ربات تلگرام (از BotFather بگیر)
-TELEGRAM_BOT_TOKEN = "8369848551:AAGi3_stV3DDergQy2mIYz59qvCiRHZzBgw"
+TELEGRAM_BOT_TOKEN = "توکن را وارد کنید"
 
 # تنظیمات لاگ‌گیری
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
@@ -44,3 +44,4 @@ def main():
 # اجرای برنامه
 if __name__ == "__main__":
     main()
+
